@@ -1,0 +1,299 @@
+/*
+created on: 12th March, 2023
+author: Jogesh Ghadai (jogesh.6895@gmail.com)
+*/
+
+
+*{
+    list-style: none;
+    text-decoration: none;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #B3E5BE;
+    border-width: 6px;
+    width: 4%;
+    padding: 20px;
+}
+
+h1{
+    color: #40513B;
+    padding-top: 85px;
+    font-size: xx-large;
+    font-family: 'Shantell Sans', cursive;
+}
+
+h2{
+    color: #40513B;
+    font-family:'Kaushan Script', cursive;
+}
+
+p{
+    color: #609966;
+    font-family: 'Shantell Sans', cursive;
+}
+
+input{
+    background-color: #EDF1D6;
+    border: 1px solid #40513B;
+    border-radius: 4px;
+}
+
+input[type=submit] {
+    color: #ffffff;
+    background-color: #5D9C59;
+    border-radius: 5px;
+    border:none;
+    padding: 6px;
+}
+
+input:hover[type=submit] {
+    color: #000000;
+    background-color: #5e9c59a9;
+}
+
+textarea{
+    background-color: #EDF1D6;
+    border: 1px solid #40513B;
+    border-radius: 4px;
+}
+
+body{
+    background-image: url(./../images/main_background3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+a{
+    color: #609966;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #606466;
+}
+
+.zoom{
+    transition: transform 0.4s;
+}
+
+.zoom:hover{
+    transform: scale(1.1);
+}
+
+.contact_img{
+    transition: transform 0.4s;
+}
+
+.contact_img:hover{
+    transform: scale(1.2);
+}
+
+.header-container {
+    background-image: url(./../images/background2.png);
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    position: relative;
+    margin: auto;
+    padding: 40px;
+}
+
+.whole-container {
+    background-color: #EDF1D6;
+    border-radius: 4px;
+    max-width: 1200px;
+    height: auto;
+    position: relative;
+    margin: auto;
+    padding: 20px;
+}
+
+.slideshow-container {
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.prev {
+    left: 0;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.prev:hover, .next:hover{
+    transform: scale(1.1);
+    background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+    color: #609966;
+    font-family: 'Shantell Sans', cursive;
+    font-size: 15px;
+    padding-top: 2px;
+    padding-bottom: 10px;
+    /* position: absolute; */
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: #AD8E70;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+
+header {
+    background-color: #EDF1D6;
+    height: 62px;
+}
+
+nav {
+    height: 60px;
+    background-color: #205058;
+    border-radius: 5px;
+}
+
+.logo {
+    padding: 10px;
+    width: auto;
+    float: left;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.list-item {
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.list-item li {
+    float: left;
+    padding: 10px 10px;
+    font-family:'Kaushan Script', cursive;
+    font-size: 14px;
+    border-radius: 2px;
+    transition: all .7s ease-in-out;
+}
+
+.list-item li a {
+    color: #EDF1D6;
+}
+
+.list-item li a:hover {
+    color: #40513B;
+}
+
+.list-item li:hover {
+    background-color: #B3E5BE;
+}
+
+.icon {
+    display: none;
+}
+
+.toggle {
+    float: right;
+    margin: 10px;
+    color: #EDF1D6;
+    font-size: 30px;
+    border: none;
+    padding: 0px 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.toggle:hover{
+    border: 1px solid #EDF1D6;
+}
+
+@media (max-width: 1300px) {
+    .icon {
+        display: block;
+        width: 100%;
+        height: 60px;
+        border-radius: 5px;
+        background-color: #205058;
+    }
+    .list-item {
+        width: 100%;
+        margin: 1px;
+        padding: 0;
+        position: relative;
+        top: -4px;
+        background-color: #205058d9;
+        display: none;
+        border-radius: 5px;
+    }
+    .list-item li {
+        text-align: center;
+        display: block;
+        border-bottom: 1px solid #333;
+        float: none;
+    }
+}
