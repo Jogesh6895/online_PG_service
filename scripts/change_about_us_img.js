@@ -12,7 +12,7 @@ function toggle_about_us_img(){
         about_us_img.style = "border-radius: 20px; width: 660px; height:380px;";
     }
     else {
-        about_us_img.src = "./images/AboutUs_1.png"
+        about_us_img.src = "./images/AboutUs_1.png";
         about_us_img.style = "border-radius: 25px; width: 660px; height:380px;";
     }
 }

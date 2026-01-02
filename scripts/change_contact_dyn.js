@@ -14,7 +14,7 @@ function toggle_map_img(){
         contact_map.src = "./images/map.gif";
     }
     else {
-        contact_map.src = "./images/static_map.png"
+        contact_map.src = "./images/static_map.png";
     }
 }
 
@@ -23,7 +23,7 @@ function toggle_email_img(){
         contact_email.src = "./images/email.gif";
     }
     else {
-        contact_email.src = "./images/static_email.png"
+        contact_email.src = "./images/static_email.png";
     }
 }
 
@@ -32,7 +32,7 @@ function toggle_phone_img(){
         contact_phone.src = "./images/phone.gif";
     }
     else {
-        contact_phone.src = "./images/static_phone.png"
+        contact_phone.src = "./images/static_phone.png";
     }
 }
 
@@ -41,7 +41,7 @@ function toggle_clock_img(){
         contact_clock.src = "./images/clock.gif";
     }
     else {
-        contact_clock.src = "./images/static_clock.png"
+        contact_clock.src = "./images/static_clock.png";
     }
 }
 
