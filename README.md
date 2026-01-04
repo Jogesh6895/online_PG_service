@@ -161,7 +161,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 👨‍💻 Author
 
-**Jogesh Ghadai**
+**Jogesh Kumar Ghadai**
 - Email: jogesh6895@gmail.com
 - GitHub: [@Jogesh6895](https://github.com/Jogesh6895)
 
